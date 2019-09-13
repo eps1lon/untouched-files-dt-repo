@@ -22,7 +22,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
       "./.yarn/virtual/"
     ],
     "fallbackExclusionList": [
-      ["untouched-files-github-repository", ["workspace:."]]
+      ["untouched-files-dt-repo", ["workspace:."]]
     ],
     "locationBlacklistData": [
     ],
@@ -313,11 +313,11 @@ function $$SETUP_STATE(hydrateRuntimeState) {
           ]
         }]
       ]],
-      ["untouched-files-github-repository", [
+      ["untouched-files-dt-repo", [
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
-            ["untouchedFiles.github", "workspace:."],
+            ["untouched-files-dt-repo", "workspace:."],
             ["@octokit/graphql", "npm:4.2.0"]
           ]
         }]

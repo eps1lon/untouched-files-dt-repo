@@ -1,4 +1,7 @@
-# untouched-files-github-repository
+# untouched-files-dt-repo
+
+Writes all the files currently touched by open PRs to DefinitelyTyped/DefinitelyTyped
+into the specified file.
 
 ## Usage
 
@@ -10,3 +13,8 @@ $ yarn start YOUR_PRETTIER_IGNORE_PATH_HERE
 # You won't create any merge conflicts. Only PRs from outdated base branches
 # will be created with merge conflicts
 ```
+
+## Contributing
+
+This repository is only intended to help migrate the DT repository to prettier.
+PRs that extend usage of this script beyond this purpose will not be accepted.

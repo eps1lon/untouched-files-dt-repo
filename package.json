@@ -1,5 +1,5 @@
 {
-  "name": "untouched-files-github-repository",
+  "name": "untouched-files-dt-repo",
   "scripts": {
     "start": "node githubPRsUntouchedFiles.js"
   },

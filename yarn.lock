@@ -253,9 +253,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"untouched-files-github-repository@workspace:.":
+"untouched-files-dt-repo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "untouched-files-github-repository@workspace:."
+  resolution: "untouched-files-dt-repo@workspace:."
   dependencies:
     "@octokit/graphql": "npm:^4.2.0"
   languageName: unknown
