@@ -6,7 +6,7 @@ into the specified file.
 ## Usage
 
 ```bash
-$ clone
+$ git clone https://github.com/eps1lon/untouched-files-dt-repo.git
 $ nvm use # or make sure node@^12.10 is installed
 # have an existing GitHub API token or create a new one: https://github.com/settings/tokens/new
 $ GH_API_TOKEN=YOUR_TOKEN_HERE yarn start YOUR_PRETTIER_IGNORE_PATH_HERE
