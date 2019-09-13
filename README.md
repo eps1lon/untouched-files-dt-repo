@@ -8,7 +8,8 @@ into the specified file.
 ```bash
 $ clone
 $ nvm use # or make sure node@^12.10 is installed
-$ yarn start YOUR_PRETTIER_IGNORE_PATH_HERE
+# have an existing GitHub API token or create a new one: https://github.com/settings/tokens/new
+$ GH_API_TOKEN=YOUR_TOKEN_HERE yarn start YOUR_PRETTIER_IGNORE_PATH_HERE
 # then run prettier on all the files you wish to format
 # You won't create any merge conflicts. Only PRs from outdated base branches
 # will be created with merge conflicts
